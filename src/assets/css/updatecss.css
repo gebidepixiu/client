@@ -1,0 +1,373 @@
+.heand-hes{
+    margin-bottom: 30px;
+}
+
+.hean-uot .update{
+    top: 0px;
+    margin: 0px auto;
+}
+.hean-uot .update>.comic_news{
+   display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+}
+
+.hean-uot .rankings>.comic_news{
+   display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+}
+.content .comic_news .mainBody_nav{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+.content .comic_news .mainBody_nav ul{
+    overflow: hidden;
+    line-height: 30px;
+}
+.content .comic_news .mainBody_nav li{
+    width: 64px;
+    font-size: 14px;
+    text-align: center;
+    margin-left: 15px;
+    height: 30px;
+    float: left;
+
+}
+.content .comic_news .mainBody_nav li a{
+    display: block;
+    color: #333;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.content .comic_news .mainBody_nav li a{
+    display: block;
+    color: #333;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.content .comic_news .mainBody_nav .settop{
+    background-color: #ff5a49;
+    color: white;
+}
+.content .comic_news .mainBody_nav li a:hover{
+    background-color: #ff5a49;
+    color: white;
+}
+
+
+.content .comic_news .comic_list_new{
+    border-top: 1px dashed #ffb3a0;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+}
+.comic_news .comic_list_new .everyday_new{
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #dadada;
+    padding: 10px;
+    box-sizing: border-box;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 30px;
+    flex: 0 0 30%;
+}
+
+.comic_list_new .everyday_new li h2{
+    text-align: left;
+    width: 200px;
+    font-size: 16px;
+}
+.comic_list_new .everyday_new li .describe{
+    text-align: left;
+    display: block;
+    font-size: 14px;
+    width: 200px;
+    color: #8c8c8c;
+    margin-top: 4px;
+    margin-bottom: 8px;
+}
+.comic_list_new .everyday_new li .update_tit img{
+    width: 100%;
+    border-radius: 4px;
+}
+
+
+
+
+.everyday_new li .collections{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    border: 1px solid #ff6700;
+    cursor: pointer;
+}
+.collections .el-icon{
+    font-size: 35px;
+    color: white;
+}
+.collections .el-icon:hover{
+    font-size: 35px;
+    color: #ff6700;
+}
+
+
+.collectionsis .el-icon{
+    cursor: pointer;
+    color: #ff6700;
+}
+
+.herderbottom .collections .el-icon{
+    cursor: pointer;
+    color: #ff6700;
+}
+
+
+.content .comic_list_new .classification{
+    width: 100px;
+    border: 1px solid #dadada;
+    border-radius: 4px;
+    background: #fff;
+    margin-top: 16px;
+    margin-left: 10px;
+    box-sizing: border-box;
+    position: relative;
+    flex: 1 0 45%;
+    display: flex;
+    display: -webkit-flex;
+}
+
+.content .comic_list_new .classification>a>img{
+    width: 288px;
+    border-radius: 4px;
+    margin: 16px 12px 16px 16px;
+    height: 168px;
+}
+.content .comic_list_new .classification ul{
+    width: 100%;
+    margin-top: 16px;
+    padding-right: 16px;
+    flex: 1 0 40%;
+}
+.content .comic_list_new .classification .title{
+    font-size: 18px;
+    width: 130px;
+    height: 24px;
+    text-overflow: ellipsis;
+}
+.content .comic_list_new .classification .subtitle{
+    font-size: 14px;
+    color: #8c8c8c;
+    margin-top: 7px;
+    margin-bottom: 2px;
+}
+li{
+    text-align: -webkit-match-parent;
+}
+.content .comic_list_new .classification .text{
+    -webkit-line-clamp: 4;
+    color: #8c8c8c;
+    font-size: 14px;
+    margin-top: 35px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+}
+.content .comic_list_new .classification li .start_look{
+    display: block;
+    background: #ff5a49;
+    padding: 9px 24px;
+    color: #fff;
+    font-size: 14px;
+    position: absolute;
+    top: 10px;
+    right: 6px;
+    border-radius: 40px;
+}
+
+
+
+/*推荐*/
+.content .comic_news .comic_ranking{
+    position: relative;
+    overflow: visible;
+    margin-left: 5px;
+    margin-right: 4px;
+    margin-bottom: 200px;
+    flex: 1 0 30%;
+}
+.comic_news .comic_ranking .inviter_tet{
+    width: 100%;
+    display: block;
+    position: relative;
+    float: left;
+    overflow: visible;
+}
+.comic_news .comic_ranking .inviter_tet>a{
+    position: relative;
+    display: block;
+    width: 100%;
+    line-height: 50px;
+    margin-left: 10px;
+    z-index: 1;
+}
+
+.comic_news .comic_ranking .inviter_tet:nth-child(n+3):hover{
+    background-color: #ff5a49;
+}
+
+.comic_news .comic_ranking .num{
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    border-radius: 45px;
+    line-height: 25px;
+    font-size: 14px;
+    color: #000;
+    background-color: white;
+    text-align: center;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.comic_news .comic_ranking>ul>li:nth-child(2){
+    z-index: 1;
+}
+
+.comic_news .comic_ranking>ul>li:nth-child(2)>a{
+    display: none;
+}
+.comic_news .comic_ranking>ul>li:nth-child(2)>.active{
+    position: relative;
+    left: 0px;
+    display: block;
+}
+.comic_news .comic_ranking>ul>li:nth-child(2)>.num{
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    border-radius: 45px;
+    line-height: 25px;
+    font-size: 14px;
+    color: #000;
+    background-color: white;
+    text-align: center;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+
+.comic_news .comic_list_new .active{
+    margin: 0px;
+    position: absolute;
+    top: 0px;
+    left: 70%;
+    z-index: 2;
+    background-color: white;
+    display: none;
+}
+.comic_news .comic_list_new .active .nub-1{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 40px;
+    height: 35px;
+    padding: 18px 5px 0 0;
+    border-radius: 0 40px 0 0;
+    /*background-color: #ff5a49;*/
+    background-color: #f9d600;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.comic_news .comic_ranking .inviter_tet:nth-child(3) .num{
+    color: #fff;
+    background-color: #feaf00;
+    border: 1px solid #f90;
+}
+.comic_news .comic_ranking .inviter_tet:nth-child(4) .num{
+    color: #fff;
+    background-color: #fe8f00;
+    border: 1px solid #fe7100;
+
+
+}
+.comic_news .comic_ranking>ul>.title{
+    line-height: 38px;
+    font-size: 24px;
+    color: #999;
+    margin-left: 10px;
+}
+
+.comic_news .comic_ranking>ul .show-all-top{
+    height: 0;
+    display: block;
+    line-height: 38px;
+    font-size: 14px;
+    color: #ff5a49;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+
+/*投稿*/
+.contributions>h1{
+    margin: 20px 0px 0px 0px;
+    text-align: center;
+}
+
+.contributions>.currency{
+    width: 30%;
+    margin: 10px 0px 20px 10px;
+    border-bottom: 2px solid black;
+}
+.contributions>.requirement{
+    width: 50%;
+    margin: 10px 0px 20px 10px;
+    border-bottom: 2px solid black;
+}
+.contributions>.loasdment{
+    width: 80%;
+    margin: 10px 0px 20px 10px;
+    border-bottom: 2px solid black;
+}
+.contributions>.my_submission{
+    display: block;
+    height: 40px;
+    width: 200px;
+    background-color: #ff6700;
+    line-height: 40px;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 45px;
+    letter-spacing: 3px;
+    margin: 0px auto;
+}
+
+/*搜索*/
+.search_list .el-scrollbar{
+    margin: 10px 10px;
+}
+
+.headtoph{
+    background-color: white;
+    line-height: 38px;
+    font-size: 16px;
+    color: #999;
+    height: 500px;
+    text-align: center;
+}
+.headtoph img{
+    margin-top: 150px;
+   width: 200px;
+}

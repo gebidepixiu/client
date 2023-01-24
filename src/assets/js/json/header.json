@@ -1,0 +1,90 @@
+
+[{
+  "id": 0,
+  "name": "热漫潮流推荐",
+  "type": "0",
+  "data": [{
+    "type": 0,
+    "typedata": 0
+  },
+    {
+      "type": 1,
+      "typedata": 1
+    }]
+},{
+  "id": 1,
+  "name": "新作月月抢先看",
+  "type": "0",
+  "data": [{
+    "type": 0,
+    "typedata": 0
+  }]
+},{
+  "id": 16,
+  "name": "甜蜜虐恋进行中",
+  "type": "0",
+  "data": [{
+    "type": 1,
+    "typedata": 0
+  },{
+    "type": 1,
+    "typedata": 1
+  }]
+},{
+  "id": 4,
+  "name": "青春恋爱物语",
+  "type": "0",
+  "data": [{
+    "type": 0,
+    "typedata": 0
+  }]
+},{
+  "id": 9,
+  "name": "霸道总裁也情深",
+  "type": "0",
+  "data": [{
+    "type": 2,
+    "typedata": 0
+  }]
+},{
+  "id": 7,
+  "name": "唯美浪漫古风",
+  "type": "0",
+  "data": [{
+    "type": 1,
+    "typedata": 0
+  }]
+},{
+  "id": 12,
+  "name": "漫画里的轻松日常",
+  "type": "0",
+  "data": [{
+    "type": 1,
+    "typedata": 0
+  }]
+},{
+  "id": 13,
+  "name": "奇幻异世界冒险",
+  "type": "0",
+  "data": [{
+    "type": 0,
+    "typedata": 0
+  }]
+},{
+  "id": 17,
+  "name": "热血少年的逆袭",
+  "type": "0",
+  "data": [{
+    "type": 2,
+    "typedata": 0
+  }]
+},{
+  "id": 6,
+  "name": "就要逗你笑",
+  "type": "0",
+  "data": [{
+    "type": 1,
+    "typedata": 0
+  }]
+}
+]

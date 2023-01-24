@@ -1,0 +1,291 @@
+.hean-uot .details_con{
+    top: 0px;
+    margin: 0px auto;
+    padding: 0px;
+}
+.details_con .subject_left{
+    width: 100%;
+    flex: 1 0 70%;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+}
+.details_con .subject_right{
+    width: 100%;
+    flex: 1 0 25%;
+    margin-left: 10px;
+}
+.details_con .subject_left .subject_top{
+    width: 100%;
+    overflow: hidden;
+    display: -webkit-flex;
+    display: flex;
+}
+ .subject_left .subject_top .top_left{
+     width: 100%;
+     margin: 20px;
+     flex: 0 0 30%;
+}
+.subject_left .subject_top .top_left>img{
+    width: 100%;
+    border-radius: 4px;
+}
+
+.subject_left .subject_top .top_right{
+    width: 100%;
+    padding: 20px 0px 20px 0px;
+    box-sizing: border-box;
+    flex: 1 0 1%;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+}
+.subject_left .subject_top .top_right>li{
+    display: block;
+    width: 530px;
+}
+.subject_left .subject_top .top_right .title{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.subject_left .subject_top .top_right .author{
+    font-size: 14px;
+}
+.subject_left .subject_top .top_right .people{
+    font-size: 14px;
+    margin-top: 8px;
+}
+.subject_left .subject_top .top_right .ellipsis{
+
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    line-clamp: 4;
+    -webkit-line-clamp: 4;
+    white-space: normal;
+    margin-top: 70px;
+}
+.subject_left .subject_top .top_right .btnGroup{
+    margin-top: 30px;
+}
+.subject_left .subject_top .top_right .btnGroup>a{
+    display: block;
+    width: 136px;
+    text-align: center;
+    background-color: #ffc04b;
+    color: #fff;
+    border-radius: 45px;
+    line-height: 41px;
+    float: left;
+}
+.subject_left .subject_top .top_right .btnGroup>.subject_conll{
+    width: 100%;
+}
+.subject_left .subject_top .top_right .btnGroup>.subject_conll{
+    position: static;
+    display: block;
+    width: 36px;
+    height: 36px;
+    background-color: #ffc04b;
+    color: #fff;
+    border-radius: 45px;
+    float: right;
+    margin-right: 30px;
+}
+.subject_left .subject_top .top_right .btnGroup>.subject_conll>img{
+    position: static;
+    display: block;
+    width: 36px;
+    height: 36px;
+    color: #fff;
+}
+.subject_left .subject_bottom{
+    width: 100%;
+    background-color: white;
+    overflow: hidden;
+}
+
+
+.subject_left .subject_bottom .ellipsis{
+    overflow: hidden;
+}
+.subject_left .subject_bottom .ellipsis>h2{
+    font-size: 16px;
+    height: 46px;
+    line-height: 46px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    float: left;
+}
+.subject_left .subject_bottom .ellipsis>.comic_order{
+    font-size: 14px;
+    margin-right: 14px;
+    line-height: 46px;
+    float: right;
+    cursor: pointer;
+}
+.subject_left .subject_bottom .ellipsis>.comic_order>b{
+    display: block;
+    width: 22px;
+    height: 22px;
+    background-image: url("../img/inde/4d597b7a45a29b18.png");
+    float: left;
+    background-size: 22px 22px;
+    margin-top: 10px;
+}
+.subject_left .subject_bottom .comic_list{
+    width: 100%;
+
+}
+
+
+
+.subject_left .subject_bottom .comic_list .left_img{
+    float: left;
+    width: 160px;
+    height: 93px;
+    border-radius: 4px;
+    margin: 16px;
+}
+.subject_left .subject_bottom .comic_list .left_img+div{
+    top: 16px;
+    float: left;
+}
+
+.subject_left .subject_bottom .comic_list .chapter{
+    border-top: 1px solid #dadada;;
+}
+.subject_left .subject_bottom .comic_list .chapter>a{
+    display: block;
+}
+
+.subject_left .subject_bottom .comic_list .title{
+    margin-top: 25px;
+    font-size: 16px;
+}
+.subject_left .subject_bottom .comic_list .date{
+    color: #8c8c8c;
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.subject_left .subject_bottom .comic_list .left_img+div+i{
+    float: right;
+    height: 30px;
+    width: 30px;
+    margin-top: 45px;
+    margin-right: 40px;
+}
+.subject_left .subject_bottom .comment_more_works{
+    width: 100%;
+    height: 44px;
+    border: none;
+    background-color: white;
+    border-top: 1px solid #dadada;
+    font-size: 14px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.subject_right .subject_top{
+    text-align: center;
+    padding: 30px;
+    box-sizing: border-box;
+    border: 1px solid #dadada;
+    background-color: white;
+    margin-top: 20px;
+}
+.subject_right .subject_bottom{
+    border: 1px solid #dadada;
+    max-height: 630px;
+    overflow: hidden;
+    margin-top: 45px;
+}
+
+
+.subject_right .subject_bottom>div{
+    margin-top: 10px;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-around;
+}
+
+.subject_right .el-button{
+    font-size: 13px;
+    flex: 1 0 30%;
+}
+
+.subject_right .el-button:active,.subject_right .el-button:hover,.subject_right .el-button:focus{
+    background-color: #f8e3c5;
+    border: 1px solid #f3d19e;
+    color: #b88230;
+}
+
+.subject_right .subject_top img{
+    width: 200px;
+}
+
+.subject_right .subject_bottom>h2{
+    font-size: 20px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+.subject_right .subject_bottom>h2>a{
+    font-size: 10px;
+    display: block;
+    float: right;
+    width: 60px;
+    height: 28px;
+    background-color: #ff6700;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    line-height: 29px;
+    margin-right: 10px;
+    margin-top: -1px;
+}
+
+.subject_right .subject_bottom .comment .user_nas{
+    text-indent: 10px;
+ }
+.subject_right .subject_bottom .describe{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+    line-clamp: 2;
+    -webkit-line-clamp: 2;
+    text-indent: 2em;
+}
+
+.subject_right .subject_bottom .comment>li{
+    margin-bottom: 20px;
+}
+.details_con .operation{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    z-index: 999;
+}
+
+.details_con .operation li{
+    width: 56px;
+    height: 56px;
+    border-radius: 99px;
+    border: 1px solid #dadada;
+    margin-bottom: 16px;
+    background: #fff;
+    cursor: pointer;
+}
+.details_con .operation li a{
+    width: 100%;
+    height: 100%;
+    display: block;
+    line-height: 56px;
+}
+.details_con .operation li img{
+    width: 36px;
+    height: 36px;
+    display: block;
+    margin: 10px auto;
+}

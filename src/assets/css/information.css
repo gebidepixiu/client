@@ -1,0 +1,162 @@
+.herdertop{
+    position: relative;
+    border-bottom: #a0cfff 1px solid;
+}
+.herdertop .el-button{
+    float: left;
+    margin-top: 130px;
+    margin-left: 5px;
+}
+.information .herdertop:before,
+.information .herdertop:after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.userheader{
+    position: relative;
+    border: 1px solid rgba(145,145,145);
+    width: 140px;
+    height: 140px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.userheader>img{
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+.userheader .el-icon{
+    font-size: 100px;
+    line-height: 140px;
+    width: 140px;
+    height: 140px;
+}
+.herdertop .el-icon{
+    margin-right: 5px;
+}
+.information .herderbottom{
+    background-color: white;
+}
+.information .herderbottom .herdertops{
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+.information .herderbottom .herdertops span{
+    padding-left: 20px;
+}
+.information .herderbottom .homebottom{
+    overflow: hidden;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+
+
+.information .herderbottom .homebottom li{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.information .herderbottom .homebottom .el-input{
+    width: 170px;
+    margin-left: 14px;
+}
+.information .herderbottom .homebottom .el-radio-button__inner{
+    width: 70px;
+    margin-left: 14px;
+}
+.information .herderbottom .homebottom .upload{
+    width: 470px;
+    margin-top: 30px;
+    margin-right: 70px;
+    float: right;
+}
+.information .herderbottom .homebottom form{
+    float: left;
+}
+.comic_news .favorites .everyday_new{
+    width: 200px;
+}
+
+.Orders{
+    width: 1000px;
+    margin: 20px auto;
+    border-radius: 4px;
+    background-color: white;
+}
+.Orders>h2{
+    text-align: center;
+    margin: 10px auto;
+    border-bottom: 1px solid #333333;
+    font-size: 30px;
+    letter-spacing: 8px;
+}
+
+
+
+.OrdersDetails{
+    position: relative;
+}
+
+.OrdersDetails .top{
+    font-size: 15px;
+}
+.OrdersDetails ul{
+    max-height: 600px;
+    overflow: auto;
+    box-sizing: content-box;
+}
+.OrdersDetails .top li{
+    display: inline-block;
+    margin-left: 210px;
+}
+.OrdersDetails .top li:nth-child(1){
+    display: inline-block;
+    margin-left: 50px;
+}
+.OrdersDetails .top li:last-child{
+    margin-left: 230px;
+}
+.OrdersDetails ul::-webkit-scrollbar-track{
+    background-color: white;
+}
+
+
+
+
+.OrdersDetails .OrdersDetailsLi{
+    border-bottom: 1px solid #dadada;
+}
+.OrdersDetails .OrdersDetailsLi>img{
+    width: 130px;
+    float: left;
+    padding: 10px;
+}
+.OrdersDetails .OrdersDetailsLi>h2{
+    margin-top: 10px;
+}
+.OrdersDetails .OrdersDetailsLi>p:nth-child(3){
+    margin-top: 10px;
+}
+.OrdersDetails .OrdersDetailsLi>p:nth-child(4)>span:nth-child(1){
+   margin-left: 30px;
+}
+
+.OrdersDetails .OrdersDetailsLi>p:nth-child(4)>span{
+    display: block;
+    font-size: 20px;
+    float: left;
+    width: 265px;
+    text-align: center;
+    height: 90px;
+    line-height: 90px;
+    margin-top: -20px;
+}
+.OrdersDetails .OrdersDetailsLi>p:nth-child(4)>span:nth-child(n+2){
+    border-left: 1px solid #dadada;
+}
+

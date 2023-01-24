@@ -1,0 +1,13 @@
+[{
+  "rankid": "0",
+  "rankname": "推荐榜"
+},
+  {
+  "rankid": "1",
+  "rankname": "收藏榜"
+},
+  {
+    "rankid": "2",
+    "rankname": "热购榜"
+  }
+]

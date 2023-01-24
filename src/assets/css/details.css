@@ -1,0 +1,146 @@
+.detailses{
+    margin: 0px auto;
+}
+
+
+.content .details_top{
+    width: 100%;
+    background-color: #ff5a49;
+    opacity: .7;
+    overflow: hidden;
+    display: flex;
+
+    display: -webkit-flex;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+}
+.content .details_top a,.content .details_top h2{
+    color: white;
+    height: 50px;
+    font-size: 16px;
+    line-height: 50px;
+    margin-left: 10px;
+}
+
+.content .details_top .previous,.content .details_top .Later{
+    text-align: center;
+     width: 100px;
+    color: #fff;
+    cursor: pointer;
+    height: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+    line-height: 40px;
+    background-color: #ff6700;
+    border-radius: 30px;
+    font-size: 14px;
+    position: relative;
+    padding-left: 20px;
+
+}
+
+.content .details_top .Later{
+    padding-left: 0px;
+    padding-right: 20px;
+}
+.content .details_top .icon{
+    display: block;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 20%;
+    background-image: url("/src/assets/img/details/comic_ic_lastch.png");
+    background-size: 24px 24px;
+}
+
+.content .details_top .Later .icon{
+    right: 20px;
+    transform:rotate(180deg);
+}
+
+.content .details_bottom{
+    width: 100%;
+}
+.content .details_bottom img{
+    width: 100%;
+    margin-top: 10px;
+}
+
+
+
+
+.details_list{
+    position: fixed;
+    top: 80%;
+    right: 50px;
+    z-index: 10;
+    border-radius: 100px;
+    color: white;
+}
+.el-dropdown-menu .el-button{
+    width: 60px;
+    height: 60px;
+    margin: auto;
+}
+.details_list .el-button{
+    background-color:  #fab6b6;
+    border-radius: 100px;
+    width: 70px;
+    height: 70px;
+    font-size: 17px;
+    border: 1px solid  #f89898;
+    display: block;
+}
+.details_list .el-button:active,.details_list .el-button:hover,.details_list .el-button:focus{
+    background-color:  #f89898;
+    border: 1px solid  #f89898;
+}
+
+
+
+body .el-dropdown__popper.el-popper{
+    background-color: white;
+    border: none;
+    box-shadow: 0px 0px white;
+}
+
+
+#el-popper-container-4078 .el-dropdown-menu__item:hover{
+    background-color: white;
+}
+
+
+
+
+
+.chapterdiv{
+     position: fixed;
+     top: 45%;
+     right: 140px;
+     width: 200px;
+     background-color: #fab6b6;
+     display: none;
+ }
+.chapterdiv ul{
+    max-height: 300px;
+    overflow: auto;
+}
+.chapterdiv ul::-webkit-scrollbar{
+    display: none;
+}
+
+.chapterdiv li{
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+    line-height: 30px;
+
+}
+.chapterdiv li a{
+    color: white;
+}
+
+
+.chapterdiv li:hover{
+    background-color: #fcd3d3;
+}

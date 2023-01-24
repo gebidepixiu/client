@@ -1,0 +1,27 @@
+
+.rotation-img{
+    width: 100%;
+    position: relative;
+    z-index: 5;
+    margin-top: 270px;
+}
+
+.rotation-img a{
+    width: 70%;
+    display: block;
+    overflow: hidden;
+}
+.heand-imgset{
+    width: 100%;
+    height: 358px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+.heand-imgset>img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+

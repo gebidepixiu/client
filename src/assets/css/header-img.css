@@ -1,0 +1,125 @@
+.head-img{
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 0;
+}
+.head-img img{
+    min-width: 1190px;
+    width: 100%;
+}
+
+.rotation-img{
+    width: 100%;
+    position: relative;
+    z-index: 5;
+    margin-top: 270px;
+}
+.rotation-img>div{
+    width: 78%;
+    min-width: 1100px;
+    margin: 0px auto;
+    border: 2px solid white;
+    overflow: hidden;
+    display: -webkit-flex;
+    display: flex;
+}
+
+
+.rotation-img>div>a{
+    width: 70%;
+    display: inline-block;
+    overflow: hidden;
+}
+.heand-imgset{
+    width: 100%;
+    height: 358px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+.heand-imgset>img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.rotation-img>div>ul{
+    width: 30%;
+    display: inline-block;
+    overflow: hidden;
+    background-color: rgba(248,248,248,.95);
+}
+.rotation-img .homsimg{
+    width: 70%;
+    margin-left: 3px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.rotation-img .cliplas{
+    height: 70%;
+}
+.rotation-img .homsimg>img{
+    width: 100%;
+}
+
+.rotation-img .contributions{
+    text-align: center;
+    width: 29%;
+    display: inline-block;
+    font-size: 18px;
+    padding: 7px;
+    box-sizing: border-box;
+}
+.rotation-img .contributions a{
+    display: block;
+    width: 100%;
+    height: 120px;
+    background-color: white;
+
+    word-break: break-all;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+.rotation-img .contributions .sispli{
+    border-top: #f3d19e 1px solid;
+    font-size: 16px;
+}
+.rotation-img  .usersis{
+        height: 30%;
+}
+.rotation-img  .usersis .usersisfavor{
+    width: 50%;
+    height: 85%;
+    text-align: center;
+    line-height: 85%;
+    background-color: white;
+    display: -webkit-inline-flex;
+    display: inline-flex;
+}
+.rotation-img  .usersis .usersisfavor a{
+    margin: auto;
+    width: 100%;
+    height: 90%;
+    padding-top: 10%;
+    box-sizing: border-box;
+    border-right: #f3d19e 1px solid;
+    margin: auto;
+}
+.rotation-img .contributions>div>a:hover,.rotation-img .usersis>div>a:hover{
+    color: #f3d19e;
+}
+@media screen and (max-width: 1110px) {
+
+    .rotation-img > div{
+        min-width: 1100px;
+        max-height: 362px;
+    }
+    .rotation-img > div > ul {
+        width: 30%;
+
+    }
+
+    .rotation-img .homsimg {
+        margin-top: 10px;
+    }
+}
